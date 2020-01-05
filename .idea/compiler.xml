@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apt-demo1" />
+      </profile>
+      <profile name="Annotation profile for apt" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="cn.zhh.GetterProcessor" />
+        <module name="apt-demo2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apt" target="1.5" />
+      <module name="apt-core" target="1.8" />
+      <module name="apt-core1" target="1.8" />
+      <module name="apt-core2" target="1.8" />
+      <module name="apt-demo1" target="1.8" />
+      <module name="apt-demo2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

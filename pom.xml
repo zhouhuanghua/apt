@@ -9,7 +9,8 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>apt-core</module>
+    <module>apt-core1</module>
+    <module>apt-core2</module>
     <module>apt-demo1</module>
     <module>apt-demo2</module>
   </modules>
